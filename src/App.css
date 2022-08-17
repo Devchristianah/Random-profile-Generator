@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color:white;
+    color :bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("./Component/picture.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.appcard{
+     border: 2px solid black;
+     border-radius: 20px;
+     width: 30%;
+     height: 80vh;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     background-color:black ;
+
+}
+button{
+    margin: 20px auto;
+    color: white;
+    background: sienna;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #3333;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+/*image from Api*/
+img{
+    width:250px;
+    height: 250px;
+    margin: 10px 0;
+    border-radius: 50%;
+    border: 1px solid #dedede;
+
+}
+/*div inside app component*/
+.app___user{
+    width:auto;
+    height: auto;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    flex-direction: column;
+}
